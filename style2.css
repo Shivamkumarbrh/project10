@@ -1,0 +1,129 @@
+.my-skill-box{
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px 15px;
+    flex-wrap: wrap;
+    background-color: #ddd;
+}
+.my-skill-box-p{
+    width: 25%;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 25px 25px;
+}
+.my-skills-box-span{
+    font-size: 2em;
+    padding: 5px 5px;
+}
+#my-skills-box-btn{
+    padding: 12px 15px;
+    margin: 10px 15px;
+    border: none;
+}
+#my-skills-box-btn i{
+    padding: 0px 5px;
+}
+.my-reputation{
+    padding: 15px 15px;
+}
+.my-reputation h2{
+    padding: 10px 0px;
+}
+.my-reputation-box{
+    display: block;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+.my-r-box-img{
+    position: relative;
+    top: 0;
+    width: 10%;
+}
+.my-r-box-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.my-r-box-p{
+    width: 80%;
+    margin: auto;
+    left: 15%;
+    position: absolute;
+    top:25%;
+    box-sizing: border-box;
+}
+.my-r-box-p p{
+    padding: 5px 5px;
+    color: #757575;
+}
+.my-r-box-span{
+    color: black;
+    padding-right: 15px;
+}
+.my-price{
+    display: flex;
+    width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.my-price h2{
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 2em;
+}
+.my-price-box{
+    width: 49%;
+    text-align: center;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.my-price-box:hover{
+    box-shadow: -5px -5px 10px #ddd,5px 5px 10px #ddd;
+}
+.my-price-box li{
+    padding: 20px 0px;
+    list-style-type: none;
+    border-bottom: 1px solid ;
+}
+#my-price-box-first,#my-price-box-second{
+    padding:30px 0px ;
+    font-size: 1.5em;
+    background-color: rgba(51, 51, 51, 0.626);
+    color: white;
+}
+#my-price-box-second{
+    background-color: black;
+}
+.my-price-box-btn{
+    border: none;
+    background-color: #f1f1f1;
+}
+.my-price-box-btn button{
+    background-color: white;
+    padding: 15px 25px;
+    border: none;
+}
+.contact{
+    width: 100%;
+    box-sizing: 1px solid;
+    border: 1px solid;
+}
+.contact h2{
+    padding: 15px 15px;
+    font-size: 2.2em;
+}
+.contact p{
+    padding: 15px 15px;
+}
+.contact i{
+    padding-right: 15px;
+    font-size: 2em;
+}
+.contact img{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}

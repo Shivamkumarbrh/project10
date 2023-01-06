@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.static-img{
+    width: 40%;
+}
+.static-img img{
+    width: 40%;
+    position: fixed;
+    top: 0;
+}
+.container{
+    width: 60%;
+    left: 40%;
+    box-sizing: border-box;
+    position:relative;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar i{
+    font-size:2em;
+    padding: 15px 15px;
+}
+.heading{
+    padding: 120px 0px;
+    text-align: center;
+}
+.heading p,button{
+    padding: 25px 0px;
+}
+#heading-first{
+    font-size: 4em;
+    font-weight: bolder;
+}
+#heading-btn{
+    padding: 15px 25px;
+    border: none;
+}
+#heading-btn i{
+    padding: 0px 5px;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.img-container h2{
+    width: 100%;
+    padding: 10px 10px;
+    /* padding: 15px 0px; */
+    font-size: 2.2em;
+}
+.my-photo-box1,.my-photo-box2{
+    width: 50%;
+    box-sizing: border-box;
+    /* padding: 10px 15px; */
+}
+.my-photo-box1 img{
+    width: 100%;
+    margin-bottom: -7px;
+    border: 15px solid white;
+    box-sizing: border-box;
+}
+.my-photo-box2 img{
+    box-sizing: border-box;
+    width: 100%;
+    border: 15px solid white;
+    margin-bottom: -7px;
+}
+.about{
+    margin: 30px 0px;
+    box-sizing: border-box;
+}
+.about h2{
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+.about p{
+    box-sizing: border-box;
+    margin: 0px 15px;
+    padding: 15px 0px;
+    text-align: justify;
+    border-top: 1px solid #ddd;
+}
+.my-skills{
+    padding:0px 15px;
+}
+.my-skills p{
+    margin: 15px 0px;
+}
+.my-skill-p{
+    width: 100%;
+    background-color: #ddd;
+}
+#my-skill-f,#my-skill-s,#my-skill-t{
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+}
+#my-skill-s{
+    width: 85%;
+}
+#my-skill-t{
+    width: 80%;
+}
