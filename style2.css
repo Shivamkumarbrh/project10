@@ -20,6 +20,10 @@
     padding: 12px 15px;
     margin: 10px 15px;
     border: none;
+    cursor: pointer;
+}
+#my-skills-box-btn:hover{
+    background-color: #ddd;
 }
 #my-skills-box-btn i{
     padding: 0px 5px;
@@ -31,26 +35,27 @@
     padding: 10px 0px;
 }
 .my-reputation-box{
-    display: block;
+    display: flex;
     padding: 15px 5px;
+    align-items: center;
     box-sizing: border-box;
     position: relative;
 }
 .my-r-box-img{
     position: relative;
     top: 0;
-    width: 10%;
+    width: 15%;
 }
 .my-r-box-img img{
-    width: 100%;
+    width: 80px;
+    object-fit: cover;
+    height: 80px;
     border-radius: 50%;
 }
 .my-r-box-p{
     width: 80%;
-    margin: auto;
-    left: 15%;
-    position: absolute;
-    top:25%;
+    text-align: left;
+    top:auto;
     box-sizing: border-box;
 }
 .my-r-box-p p{
@@ -88,6 +93,9 @@
     list-style-type: none;
     border-bottom: 1px solid ;
 }
+.my-price-box li:last-child{
+    border-bottom: none;
+}
 #my-price-box-first,#my-price-box-second{
     padding:30px 0px ;
     font-size: 1.5em;
@@ -106,10 +114,14 @@
     padding: 15px 25px;
     border: none;
 }
+.my-price-box-btn button:hover{
+    cursor: pointer;
+    background-color: #aaa;
+}
 .contact{
     width: 100%;
-    box-sizing: 1px solid;
-    border: 1px solid;
+    padding: 0px 10px;
+    box-sizing: border-box;
 }
 .contact h2{
     padding: 15px 15px;
@@ -117,6 +129,18 @@
 }
 .contact p{
     padding: 15px 15px;
+}
+.contact input{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+#contact-btn{
+    width: 150px;
+    border: none;
+    padding:12px;
+    cursor: pointer;
 }
 .contact i{
     padding-right: 15px;
@@ -126,4 +150,19 @@
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
+}
+footer{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 25px 0px;
+    text-align: center;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+footer p i{
+    padding: 0px 5px;
+    margin-bottom: 5px;
 }
